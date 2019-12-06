@@ -28,7 +28,7 @@ export class HeroeComponent implements OnInit {
         .subscribe( (respuesta: HeroeModel ) => {
           this.heroe = respuesta;
           this.heroe.id = id;
-          // console.log(respuesta);
+          // console.log(this.heroe);
         });
     }
   }
